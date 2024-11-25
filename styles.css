@@ -3,7 +3,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-
 }
 
 body {
@@ -86,6 +85,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .content-header{
@@ -98,7 +98,6 @@ button {
 .content-card{
     display: flex;
     gap: 64px;
-
     flex-wrap: wrap;
 }
 
@@ -115,4 +114,29 @@ button {
 .card img{
     border-radius: 8px;
     border: #3882F6 solid 3px;
+}
+
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 80px 0;
+}
+
+.quote-text {
+    width: 60%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+    margin-left: 50%;
 }
